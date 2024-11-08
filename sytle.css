@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+   
+}
+
+main{
+    background-image: url(imagenes/dreams-in-frames-dreamsinframes1986-the-best-hamburger-in-the-world-food-photogr-8b3ade86-40cc-42ab-9261-fca23a337303.jpg);
+    background-size: cover;
+    height: 55rem;
+}
+
+.page{
+transition: opacity 1s;
+}
+
+.content-image{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    background-image: url(imagenes/gym-equipment.png);
+    background-size: cover;
+    border-radius: 5px;
+    width: 5rem;
+    height: 5rem;
+    position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
+    top: 53%;
+   
+}
+
+.content-text{
+    color: #fff;
+    text-align: center;
+    margin-top: 25rem;
+    margin-bottom: 25rem;
+    font-size: 1.5rem;
+    /* position: relative; esto funciona cuando queremos mover objetos a libertad, pero es mas recomendable en pequeños espacion o contenedores
+    top:25rem; */
+}
+
+.content-text p{
+    margin: 5rem 5rem 0rem 5rem;
+    color: rgb(224, 215, 215);
+    font-size: 2rem;
+}
+
+.content-calculator{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to bottom, black, #b2bf6d);
+    
+
+}
+
+.calculator {
+    margin: 4rem 0rem 4rem 0rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-size: 1.5rem;
+    width: 20rem;
+    background-color: rgb(236, 208, 149);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content-text-2{
+    background-color:rgb(236, 208, 149) ;
+    transition: opacity 1s;
+}
+
+.content-text-2 h2{
+    margin: 0rem 0rem 0rem 3rem;
+    padding: 3rem 0rem 0rem 0rem;
+    font-size: 2rem;  
+}
+
+.content-text-2 p{
+    margin: 0rem 3rem 0rem 3rem;
+    font-size: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #b2bf6d;
+    padding-top: 0.5rem;
+}
+
+#logo a{ 
+    color: #fff;
+    margin: 1rem;
+    font-size: 2rem;
+}
+#logo a:hover{
+    color: black;
+    font-size: 2.5rem;
+}
+
+@media(min-width: 768px){
+    main{
+        background-image: url(imagenes/dreams-in-frames-dreamsinframes1986-the-best-hamburger-in-the-world-food-photogr-8b3ade86-40cc-42ab-9261-fca23a337303.jpg);
+        background-size: cover;
+        height: 55rem;
+    }
+    
+    .page{
+    transition: opacity 1s;
+    }
+    
+    .content-image{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image{
+        background-image: url(imagenes/gym-equipment.png);
+        background-size: cover;
+        width: 5rem;
+        height: 5rem;
+        position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
+        top: 56%;
+       
+    }
+    
+    .content-text{
+        color: #fff;
+        text-align: center;
+        margin-top: 25rem;
+        margin-bottom: 25rem;
+        font-size: 2.5rem;
+        /* position: relative; esto funciona cuando queremos mover objetos a libertad, pero es mas recomendable en pequeños espacion o contenedores
+        top:25rem; */
+    }
+    
+    .content-text p{
+        margin: 7rem 5rem 0rem 5rem;
+        color: rgb(224, 215, 215);
+        font-size: 2.2rem;
+    }
+    
+    .content-calculator{
+        display: flex;
+        justify-content: center;
+        background:linear-gradient(to bottom, black, #b2bf6d);
+        height: 57rem;
+    }
+
+    .image2{
+        background-image: url(imagenes/gym-equipment.png);
+        background-size: cover;
+        
+        width: 5rem;
+        height: 5rem;
+        position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
+        top: 98rem;
+       left: 45%;
+    }
+    
+    .calculator {
+        margin: 4rem 0rem 4rem 0rem;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        font-size: 1.5rem;
+        width: 25rem;
+        background-color: rgb(236, 208, 149);
+       
+        
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+    }
+    
+    input, select, button {
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .results {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .content-text-2{
+        background:linear-gradient(to bottom, #b2bf6d, #000000);
+        transition: opacity 1s;
+        height: 55rem;
+    }
+    
+    .content-text-2 h2{
+        margin: 0rem 0rem 0rem 3rem;
+        padding: 3rem 0rem 0rem 0rem;
+        font-size: 2rem;  
+    }
+    
+    .content-text-2 p{
+        margin: 0rem 3rem 0rem 3rem;
+        font-size: 1.5rem;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: #b2bf6d;
+        padding-top: 0.5rem;
+    }
+    
+    #logo a{ 
+        color: #fff;
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    #logo a:hover{
+        color: black;
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width: 1920px){
+    main{
+        background-image: url(imagenes/dreams-in-frames-dreamsinframes1986-the-best-hamburger-in-the-world-food-photogr-8b3ade86-40cc-42ab-9261-fca23a337303.jpg);
+        background-size: cover;
+        height: 60rem;
+    }
+    
+    .page{
+    transition: opacity 1s;
+    }
+    
+    .content-image{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image{
+        background-image: url(imagenes/gym-equipment.png);
+        background-size: cover;
+        width: 7rem;
+        height: 7rem;
+        position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
+        top: 56%;
+       
+    }
+    
+    .content-text{
+        color: #5f5f5f;
+        text-align: center;
+        margin-top: 25rem;
+        margin-bottom: 25rem;
+        font-size: 5rem;
+        /* position: relative; esto funciona cuando queremos mover objetos a libertad, pero es mas recomendable en pequeños espacion o contenedores
+        top:25rem; */
+    }
+    
+    .content-text p{
+        margin: 7rem 5rem 0rem 5rem;
+        color: #5f5f5f;
+        font-size: 4rem;
+    }
+    
+    .content-calculator{
+        display: flex;
+        justify-content: center;
+        background:linear-gradient(to bottom, black, #b2bf6d);
+        height: 63rem;
+    }
+
+    .image2{
+        background-image: url(imagenes/gym-equipment.png);
+        background-size: cover;
+        
+        width: 5rem;
+        height: 5rem;
+        position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
+        top: 103rem;
+       left: 48%;
+    }
+    
+    .calculator {
+        margin: 4rem 0rem 4rem 0rem;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        font-size: 1.5rem;
+        width: 25rem;
+        background-color: rgb(236, 208, 149);
+       
+        
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+    }
+    
+    input, select, button {
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .results {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .content-text-2{
+        background:linear-gradient(to bottom, #b2bf6d, #000000);
+        transition: opacity 1s;
+        height: 78rem;
+    }
+    
+    .content-text-2 h2{
+        margin: 0rem 0rem 0rem 3rem;
+        padding: 0rem 0rem 0rem 0rem;
+        font-size: 5rem; 
+        text-align: center; 
+    }
+    
+    .content-text-2 p{
+        margin: 0rem 3rem 0rem 3rem;
+        font-size: 3rem;
+        text-align: center;
+        color: #fff;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: #b2bf6d;
+        padding-top: 0.5rem;
+        font-size: 2rem;
+    }
+    
+    #logo a{ 
+        color: #fff;
+        margin: 1rem;
+        font-size: 3rem;
+    }
+    #logo a:hover{
+        color: black;
+        font-size: 4rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calorías</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <main class="page" id="principal-main">
+
+        <div class="content-image">
+            <div class="image"></div>
+        </div>
+
+        <section class="text">
+            <div class="content-text">
+                <h1>Calculadora de calorias</h1>
+                
+                <p>Aca podras calcular cuantas calorias necesitas segun tu peso, altura y edad </p>
+                
+            </div>
+        </section>
+    </main>
+
+    <section class="page" id="page2">
+        <div class="content-calculator">
+            <div class="content-image2">
+                <div class="image2"></div>
+            </div>
+            <div class="calculator">
+                <form id="calorieForm">
+                    <label for="height">Altura en cm:</label>
+                    <input type="number" id="height" name="height" required>
+
+                    <label for="weight">Peso en Kg:</label>
+                    <input type="number" id="weight" name="weight" required>
+
+                    <label for="age">Edad:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="sex">Sexo:</label>
+                    <select id="sex" name="sex" required>
+                        <option value="male">Hombre</option>
+                        <option value="female">Mujer</option>
+                    </select>
+
+                    <label for="activity">Nivel de actividad:</label>
+                    <select id="activity" name="activity" required>
+                        <option value="none">Ningún Ejercicio</option>
+                        <option value="light">Ejercicio Ligero</option>
+                        <option value="moderate">Ejercicio Moderado</option>
+                        <option value="heavy">Ejercicio Intenso</option>
+                    </select>
+
+                    <button type="button" onclick="calculateCalories()">Calcular</button>
+                </form>
+
+                <div class="results">
+                    <p>Calorías diarias necesarias: <span id="dailyCalories">0</span></p>
+                    <p>Calorías para perder grasa: <span id="loseFatCalories">0</span></p>
+                    <p>Calorías para ganar músculo: <span id="gainMuscleCalories">0</span></p>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="content-text-2" id="page3">
+        <h2>Por que es importante saber cuantas calorias consumir?</h2>
+        <br>
+        <p>Antes de eso tenemos que saber y entender que todo lo que comemos se convierte a calorias un exceso de ellas, lo que hara el cuerpo sera transformarla a grasa como reserva. Tener un control de ingesta de alimentos es importante por que comemos de manera mas consciente y acuerdo a las necesidades de cada cuerpo.
+        <br>
+        <br>
+        Pongamos un caso practico, si vamos hacer una rutina de ejercicios intenso necesitaremos muchas calorias.
+        <br>
+        <br>
+        Caso contrario si ya es de noche y dorimiremos entoces la ingesta de aliementos sera muy poca.
+        <br>
+        <br>
+        Otra cosa que tenemos que entender es que no es lo mismo obtener 1000 calorias de un chocolate que obtener 100 calorias por comer brocoli.
+        <br>
+        <br>
+        Para terminar y no aburrirte, esta es información muy simple, te invito a profundizar estos conceptos.
+        <br>
+        <br>
+        Que estes bien.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <h2 id="contac">Copyright © For JOSEP MARENGO</h2>
+        <div id="logo">
+            <a href="https://www.linkedin.com/in/josepmarengo" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/JosepMarengo?tab=repositories" target="_blank" class="fa fa-github"></a>
+
+            <a href="https://wa.me/51936637631" target="_blank" class="fa fa-whatsapp"></a>
+        </div>
+    </footer>
+
+
+    <script src="calcu.js"></script>
+</body>
+</html>
