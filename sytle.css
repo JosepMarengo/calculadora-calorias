@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media(min-width: 425px){
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -31,7 +32,7 @@ transition: opacity 1s;
     width: 5rem;
     height: 5rem;
     position: absolute; /*postion absolute se puede mover el objeto a libertad igual que position relative la diferencia que position relative crea un espacio(margin) y position absolute no crea ningun espacio */
-    top: 53%;
+    top: 51%;
    
 }
 
@@ -135,6 +136,7 @@ footer{
 #logo a:hover{
     color: black;
     font-size: 2.5rem;
+}
 }
 
 @media(min-width: 768px){
