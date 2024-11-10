@@ -104,8 +104,9 @@ button:hover {
 }
 
 .content-text-2{
-    background-color:rgb(236, 208, 149) ;
+    background:linear-gradient(to bottom, #b2bf6d, #000000);
     transition: opacity 1s;
+    height: 80rem;
 }
 
 .content-text-2 h2{
@@ -115,8 +116,9 @@ button:hover {
 }
 
 .content-text-2 p{
-    margin: 0rem 3rem 0rem 3rem;
+    margin: 0rem 3rem 2rem 3rem;
     font-size: 1.5rem;
+    color: white;
 }
 
 footer{
